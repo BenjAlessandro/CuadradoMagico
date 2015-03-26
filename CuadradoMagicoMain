@@ -1,0 +1,19 @@
+package cuadradomagico;
+
+/**
+ *
+ * @author Benja
+ */
+public class CuadradoMagico {
+
+    public static void main(String[] args) {
+        
+        Interfaz i = new Interfaz();
+        i.setResizable(false);
+        i.setLocationRelativeTo(null);
+        i.pack();
+        i.setVisible(true);
+    
+    }
+    
+}
